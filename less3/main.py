@@ -13,21 +13,28 @@
 # print(array_full)
 # from less3.foos.functions import * 
 # summator(1,2)
-from typing import List
+# from typing import List
 
 
-def create_array(array:list,size:int):
-  for i in range(size):
-    array.append(i)
-def change_indexes(array:list,index1:int,index2:int):
-  array[index1],array[index2]= array[index2],array[index1]
+# def create_array(array:list,size:int):
+#   for i in range(size):
+#     array.append(i)
+# def change_indexes(array:list,index1:int,index2:int):
+#   array[index1],array[index2]= array[index2],array[index1]
 
-array=[]
-succesfull_array=[1,2,3,4]
-create_array(array,10)
-change_indexes(array,0,9)
-change_indexes(succesfull_array,0,3)
-print(succesfull_array)
+# array=[]
+# succesfull_array=[1,2,3,4]
+# create_array(array,10)
+# change_indexes(array,0,9)
+# change_indexes(succesfull_array,0,3)
+# print(succesfull_array)
+dict={'misha':5,'sasha':5}
+a=[1,2,3,4]
+numbers = range(10)
+new_dict_comp = {a:n for n in dict}
+# # print(dict['misha'])
+# print(dict.values())
+print(new_dict_comp)
 
 
 
