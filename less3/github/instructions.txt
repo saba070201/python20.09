@@ -4,3 +4,4 @@
 4)git push 
 если ошибка : 
 git config --global user.email "your email"
+обновить локальный репозиторий -git pull
