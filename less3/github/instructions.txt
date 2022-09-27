@@ -1,0 +1,6 @@
+1) git clone project htttps
+2)git add --all 
+3)git commit -am "commit-description"
+4)git push 
+если ошибка : 
+git config --global user.email "your email"
