@@ -1,0 +1,7 @@
+Как изменить powershell на cmd : 
+1) Для изменения терминала Visual Studio Code по умолчанию с Windows PowerShell на Git Bash необходимо: установить Git Bash на компьютер; выбрать терминал по умолчанию в окне Visual Studio Code, нажав клавишу F1 и набрав (выбрав) пункт меню Terminal: Select Default Profile ; в раскрывшемся окне выбрать Git Bash.
+Виртуальная среда: 
+1)python -m venv venv создать директорию виртуальной среды 
+2) venv\Scripts\activate.bat-автивировать виртуальную среду
+3) pip list - список всенх модулей 
+4) pip install название библиотеки  - скачать библиотеку 
