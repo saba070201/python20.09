@@ -31,7 +31,7 @@
 dict={'misha':5,'sasha':5}
 a=[1,2,3,4]
 numbers = range(10)
-new_dict_comp = {a:n for n in dict}
+new_dict_comp = {n:n for n in dict}
 # # print(dict['misha'])
 # print(dict.values())
 print(new_dict_comp)
