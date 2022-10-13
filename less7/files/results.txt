@@ -1,1 +1,4 @@
 arr100-bubble time: 0.001994609832763672
+arr1000-bubble time: 0.05292916297912598
+arr10000-bubble time: 6.002533197402954
+arr100000-bubble time: много

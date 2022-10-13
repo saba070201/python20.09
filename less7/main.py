@@ -31,12 +31,28 @@ def read_from_file(arr,path):
             arr.append(int(i))
 def write_results(path,text,time):
     with open(path,'a') as w_a_f:
-        w_a_f.write(str(text)+' time: '+str(time))
+        w_a_f.write('\n'+str(text)+' time: '+str(time))
+def comb_sort(arr):
+    step=int(len(arr)/1.247)
+    swap=1
+    while step > 1 or swap>0:
+        swap=0
+        i=0
+        while i+step < len(arr):
+            if arr[i] > arr[i+step]:
+                arr[i],arr[i+step]=arr[i+step],arr[i]
+                swap+=1
+            i+=1
+        if step>1:
+            step=int(step/1.247)
+ 
 
-arr100=[]
-read_from_file(arr100,path100)
-st=time.time()
-bSort(arr100)
-et=time.time()
-ft=et-st
-write_results(res,'arr100-bubble',ft)
+# arr100000=[]
+# read_from_file(arr100000,path100000)
+# st=time.time()
+# bSort(arr100000)
+# et=time.time()
+# ft=et-st
+# write_results(res,'arr100000-bubble',ft)
+arr1=[3,1,2]
+print(comb_sort(arr1))
