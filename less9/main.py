@@ -100,3 +100,23 @@ print(Calculate.operation(rv,av,'-'))
 
 # print(rv.arabicvalue)
 # raise RimsAddArabian('нельзя складывать арабские и римские цифры')
+#Александру 
+from math import sqrt
+import random
+def bSort(array):
+    # определяем длину массива
+    length = len(array)
+    #Внешний цикл, количество проходов N-1
+    for i in range(length):
+        # Внутренний цикл, N-i-1 проходов
+        for j in range(0, length-i-1):
+            #Меняем элементы местами
+            if sqrt(array[j][0]**2 +array[j][1]**2+array[j][2]**2)> sqrt(array[j+1][0]**2+array[j+1][1]**2+array[j+1][2]**2):
+                temp = array[j]
+                array[j] = array[j+1]
+                array[j+1] = temp
+l=[[random.randint(1,100) for i in range(3)] for i in range(100)]
+bSort(l)
+
+
+print(l)
