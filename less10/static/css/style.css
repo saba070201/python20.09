@@ -1,0 +1,20 @@
+.elems{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    left: 5%;
+}
+.tb_size{
+    width: 200px;
+    margin: 5px;
+}
+.btn_style{
+  background-color: rgb(47, 255, 137);
+border: 0;
+}
+.btn{
+    margin-left: 6px;
+    width: 200px;
+    left: 5%;
+}
